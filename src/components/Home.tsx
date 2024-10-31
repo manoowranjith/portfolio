@@ -120,7 +120,6 @@ const Home = () => {
                                     <Tooltip title="External ↗">
                                         <LinkIcon onClick={() => window.open(each.link, '_blank')} sx={{ cursor: "pointer", ml: 1 }} />
                                     </Tooltip>
-
                                 </Box>
                                 <Box>
                                     <Typography sx={{ fontWeight: "bold" }}>Team</Typography>
@@ -151,19 +150,14 @@ const Home = () => {
                                             </Tooltip>
                                         ))}
                                     </Box>
-
-
                                 </Box>
-
-
                             </Box>
                         </Grid>
                     )}
                 </Grid>
             </Box>
             <Box sx={{ mt: 5, display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column" }}>
-
-                <Button onClick={() => window.open(resumeLink, '_blank')} sx={{fontWeight: "bold", my:3}}>Resume</Button>
+                <Button onClick={() => window.open(resumeLink, '_blank')} sx={{ fontWeight: "bold", my: 3 }}>Resume</Button>
                 <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
                     {contact.map((eachContact) =>
                         <Box sx={{ mr: 2, cursor: "pointer" }} onClick={() => window.open(eachContact.link, '_blank')}>

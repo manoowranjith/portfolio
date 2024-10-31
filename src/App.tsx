@@ -12,10 +12,10 @@ function App() {
     <>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <Box sx={{p:1,mt:2}}>
-        <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes>
+        <Box sx={{ p: 1, mt: 2 }}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
         </Box>
       </ThemeProvider>
     </>
